@@ -629,6 +629,18 @@ CSS interpretation
 * A CSS parser can be top-down or bottom-up when a specific parser generator
   is used.
 
+Brief Process of what happens when  ----------------------
+Here's a quick look at the process behind the scenes:
+* DNS Request: Your browser finds the IP address for "www.google.com" via DNS servers.
+* TCP/IP: A TCP handshake establishes a reliable connection using the IP address.
+* Firewall: Firewalls ensure the security of data traffic by filtering it.
+* HTTPS/SSL: An SSL/TLS handshake encrypts the communication for security.
+* Load Balancer: Requests are distributed across servers to handle traffic efficiently.
+* Web Server: The server processes static content or forwards dynamic requests.
+* Application Server: This server handles dynamic content, interfacing with databases.
+* Database: Retrieves or stores data as needed for the contents 
+
+
 Page Rendering
 --------------
 
